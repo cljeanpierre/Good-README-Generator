@@ -1,9 +1,9 @@
-# gigi
-![GitHub license] (https://img.shields.io/badge/license-MIT-blue.svg)
+# Good ReadMe Form
+![GitHub license] (https://img.shields.io/badge/license-ISC-blue.svg)
 
 ##Project Description-
 
-gigi
+This app allows developers to save time creating a README file and instead spend more time working on their projects
 
 ##Table of Contents:
 
@@ -26,9 +26,9 @@ To install the dependencies needed, type the following command:
 npm i
 
 ##Usage-
-none
+None
 ## License
-      This project is licensed under MIT license.
+      This project is licensed under ISC license.
 
 ##Contributing- 
 none
