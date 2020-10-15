@@ -31,11 +31,11 @@ function generateMarkdown(data) {
   return `# ${data.title}
 ${assignLicenseBadge (data.license)}
 
-Project Description-
+##Project Description-
 
 ${data.description}
 
-Table of Contents:
+##Table of Contents:
 
 [Installation] (#installation)
 
@@ -48,23 +48,23 @@ ${assignLicenseLink (data.license)}
 
 [Questions](#questions)
 
-Installation-
+##Installation-
 
 To install the dependencies needed, type the following command:
 ${data.installation}
 
-Usage-
+##Usage-
 ${data.usage}
 ${assignLicenseSection(data.license)}
 
-Contributing- 
+##Contributing- 
 ${data.contributing}
 
-Tests-
+##Tests-
 To perform a test of the application, type the following command:
 ${data.test}
 
-Questions-
+##Questions-
 If you have any questions about this repository, please contact me at ${data.email}.  
 For more information, please visit my GitHub page at ${data.github} (https://github.com/${data.github}/)
 `;
