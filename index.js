@@ -26,11 +26,6 @@ const questions = [
         message: "Provide a brief description of your project."
     },
     {
-        type: "list",
-        name: "table of contents",
-        default: ["Installation", "Usage", "License", "Contributing", "Tests", "Questions"]
-    },
-    {
         type: "input",
         name: "installation",
         message: "What command will be used to install the dependencies?",
@@ -39,7 +34,7 @@ const questions = [
     {
         type: "input",
         name: "usage",
-        message: "Provide the user any information needed to use the repository.",
+        message: "Provide the user with any information needed to use the repository.",
     },
     {
         type: "list",
@@ -55,7 +50,8 @@ const questions = [
     {
         type: "input",
         name: "tests",
-        message: "What command will be used to run tests on your project?"
+        message: "What command will be used to run tests on your project?",
+        default: "npm test"
     },
 
 ];
